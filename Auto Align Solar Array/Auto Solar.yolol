@@ -18,7 +18,7 @@ goto2
 
 
 
-//-----------LINES BELOW HERE ARE FOR DOCUMENTATON PURPOSES-----------
+//----------LINES BELOW HERE ARE FOR DOCUMENTATION PURPOSES-----------
 //:LOV is Light Offset Vertical
 //:HOV is Light Offset Horizontal
 //Variable n in the first line is for limited the angle. In this case
