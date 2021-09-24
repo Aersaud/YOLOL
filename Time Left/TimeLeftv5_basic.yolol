@@ -1,0 +1,19 @@
+a="\n" b="Prop: " c="Fuel: "  g=":" z="Infinite"
+d=1000 e=60 f=3600 w=100
+h=z i=:GasNetworkStoredResource h=i/(j-i) h3=h2 h2=h h=(h3+h2+h)/3
+j=i k=h/f/d*d  l=(h-k*f)/e/d*d m=(h-k*f-l*e)/d*d h=k+g+l+g+m
+n=z o=(:FC1+:FC2+:FC3+:FC4+:FC5+:FC6+:FC7)/fc ck=1/(p-o) n=w*o+(1-w)*p
+p=o k=n/f/d*d l=(n-k*f)/e/d*d m=(n-k*f-l*e)/d*d n=k+g+l+g+m
+:TimeLeft=a+b+a+h+a+c+a+n goto3
+
+
+
+
+
+
+
+
+
+
+
+
