@@ -21,7 +21,7 @@ goto2
 //----------LINES BELOW HERE ARE FOR DOCUMENTATION PURPOSES-----------
 //:LOV is Light Offset Vertical
 //:HOV is Light Offset Horizontal
-//Variable n in the first line is for limited the angle. In this case
+//Variable n in the first line is for limiting the angle. In this case
 //we are limiting the angle to +100 and -100
 //:TCR is Turret Current Pitch
 //:TP is Turret Pitch
