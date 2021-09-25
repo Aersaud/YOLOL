@@ -1,6 +1,6 @@
 n=100
 o=:LOV a=:TCP+(o*-1) l=1/((o>5)+(o<-5)) ak=(a>-n)*(a<n) :TP=a*ak 
-p=:LOH b=:TCR+(:LOH*-1) l=1/((p>5)+(p<-5)) :TR=b goto2 
+p=:LOH b=:TCR+(p*-1) l=1/((p>5)+(p<-5)) :TR=b goto2 
 goto2
 
 
