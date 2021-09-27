@@ -30,12 +30,12 @@ Below are how you should name the fields in these devices.
 
 Text Panel
 
-![](_TextPanel.png)
+![](TextPanel.png)
 
 Transponder
 
-![](_ShipTransponder.png)
+![](ShipTransponder.png)
 
 Ship Diagnostic Scanner
 
-![](_ShipDiagnosticScanner.png)
+![](ShipDiagnosticScanner.png)
