@@ -1,0 +1,19 @@
+n="\n" st="Ship Strength " det="Dur Errs " to="Transponder On1"
+tof="Transponder Off0"
+de=:de sst=:sst sz=:SZ t=:Trans w="PVP" w="Safe" + 1/sz - "1"
+ts=to+tof-t-to-tof :Zone=w+n+st+n+sst+n+det+n+de+n+ts goto3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
