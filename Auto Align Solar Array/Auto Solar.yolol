@@ -1,6 +1,6 @@
 n=100
 o=:LOV a=:TCP+(o*-1) l=1/((o>5)+(o<-5)) ak=(a>-n)*(a<n) :TP=a*ak 
-p=:LOH b=:TCR+(:LOH*-1) l=1/((p>5)+(p<-5)) :TR=b goto2 
+p=:LOH b=:TCR+(p*-1) l=1/((p>5)+(p<-5)) :TR=b goto2 
 goto2
 
 
@@ -21,9 +21,9 @@ goto2
 //----------LINES BELOW HERE ARE FOR DOCUMENTATION PURPOSES-----------
 //:LOV is Light Offset Vertical
 //:HOV is Light Offset Horizontal
-//Variable n in the first line is for limited the angle. In this case
+//Variable n in the first line is for limiting the angle. In this case
 //we are limiting the angle to +100 and -100
-//:TCR is Turret Current Pitch
+//:TCP is Turret Current Pitch
 //:TP is Turret Pitch
 //:TR is Turret Rotation
 //:TCR is Turret Current Rotation
