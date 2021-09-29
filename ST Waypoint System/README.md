@@ -11,3 +11,4 @@
 If there are any bugs or issues feel free to submit an Issue so I can quickly address them.
 
 <sup>*Some lines in the chips were intentionally left blank for future use and compatiblity.*</sup>
+<sup>More documentation to come</sup>
