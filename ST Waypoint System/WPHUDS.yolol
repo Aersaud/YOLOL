@@ -1,0 +1,6 @@
+T=38 b=1 p="[NoName] " q="\n" r=q+"Selection" v="" :wpd=q+:wp1 o=r
+sp=" " n=q+"Saving!" m=q+"Overwriting" a=1000
+:WPStat=o+q+b+q+:wp w=:ws h=:wh u=:wu d=:wd goto3+((u+d+h)>0)+(w>0)*2
+b+=u-d b=b*(b>0)*(b<=T)+T*(b<1)+1*(b>T) b=h+(1-h)*b :wpn=b o=r goto3
+if :wp!=0 then:WPStat=m else :WPStat=n end x=:X/a*a y=:Y/a*a z=:Z/a*a 
+:wpa=p+"X="+x+sp+"Y="+y+sp+"Z="+z o=q+"WP Saved!" :ws=0 :wp=:wpa goto3

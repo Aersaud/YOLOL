@@ -1,0 +1,20 @@
+q="\n" c="" tx="" ty="" p="" ind=1 m="." r=".." s=" " ll="Loading"
+a="1" b="2" c="3" d="4" e="5" f="6" g="7" h="8" i="9" j="0" k="-"
+l=0 ind=1 t=0 p="" o=0 san="X="-"Y="-"Z=" goto3+:wpc 
+:wpcc=1 n=:wp ck=n==0 n=n-san :WPD=ll goto5+(ck)*14
+zc=n zc-=n-- ifzc!=s thenp+=zc goto8else z=o*u l++ o=0 ind=1 goto6 end
+yc=n yc-=n-- ifyc!=s thenp+=yc goto8else y=o*u l++ o=0 ind=1 goto7 end
+xc=n xc-=n-- ifxc!=s thenp+=xc goto8else x=o*u goto11 end 
+t+=p==a t+=2*(p==b) t+=3*(p==c) t+=4*(p==d) t+=5*(p==e) :WPD-=r
+t+=6*(p==f) t+=7*(p==g) t+=8*(p==h) t+=9*(p==i) t+=0*(p==j) :WPD+=m
+u=(p==k) u=(u*-1)+(u<1) o+=t*ind p="" t=0 ind*=10 :WPD+=m goto5+l
+:WPD="Loading Complete!" :WPCx=x :WPCy=y :WPCz=z Nm=n goto20
+
+
+
+
+
+
+
+:WPD=q+"WP is Blank" :wpc=0 :wpcc=2 goto3
+:WPD=q+Nm+q+"X: "+x+q+"Y: "+y+q+"Z: "+z :wpc=0 :wpcc=2 goto3
