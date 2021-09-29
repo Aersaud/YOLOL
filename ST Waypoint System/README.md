@@ -6,3 +6,6 @@
 - Home Button takes you back to WP1, Up for Incrementing, Down for Decrementing, Save for saving.
 - You can press and hold to move faster up or down waypoints. It will wrap when you reach the end or beginning.
 - 2 Panels + 5 Buttons for the whole system to function within your cockpit.
+
+
+If there are any bugs or issues feel free to submit an Issue so I can quickly address them.
