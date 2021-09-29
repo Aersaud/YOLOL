@@ -1,4 +1,4 @@
-#ST-Waypoint-System
+# ST-Waypoint-System v1.0
 
 - Features by default 38 customizable waypoints (expansion available until your ship has no space - virtually unlimited)
 - Visual Waypoint Selection System - You can see the waypoint name and coordinates prior to parsing/confirming the waypoint for navigation since that is a more time consuming task.
