@@ -92,39 +92,43 @@ WPStat (the value shown of the field is not necessary to input and the system wi
 </br>
 WH
 
+![WPC](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wpc.png)
+</br>
+WS
+
 ![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wh.png)
 </br>
 WS
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/ws.png)
+![WS](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/ws.png)
 </br>
 WU
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wu.png)
+![WU](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wu.png)
 </br>
 WD
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wd.png)
+![WD](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wd.png)
 </br>
 Memory Chip 1
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC1.png)
+![MEM1](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC1.png)
 </br>
 Memory Chip 2
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC2.png)
+![MEM2](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC2.png)
 </br>
 Memory Chip 3
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC3.png)
+![MEM3](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC3.png)
 </br>
 Memory Chip 4
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC4.png)
+![MEM4](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC4.png)
 </br>
 Memory Chip 5
 
-![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC5.png)
+![MEM5](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC5.png)
 </br>
 
 
