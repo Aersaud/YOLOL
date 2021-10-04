@@ -47,7 +47,7 @@ https://streamable.com/o694c9
 </br>
 
 ### Button/Display Requirements:
-| <center> Name                  | Total </center> | Text Panel Field Name |
+| <center> Name                  | Total </center> | Text Panel/Field Names |
 | --- | --- | --- |
 | <center> Text Panel 24x24cm    | 2     </center> | WPD and WPStat        |
 | <center> Simple Button 12x12cm | 4     </center> | wh ws wu wd           |
