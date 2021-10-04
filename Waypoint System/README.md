@@ -2,7 +2,7 @@
 
 ![Waypoint-System-Screenshot](Waypointv1.1.png)
 Demo Video: 
-https://user-images.githubusercontent.com/825081/135806385-911923f3-69b6-451c-be2a-33d46e4e46cb.mp4
+https://streamable.com/o694c9
 
 
 
