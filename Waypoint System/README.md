@@ -42,7 +42,7 @@ https://streamable.com/o694c9
 | <center>WPHUDS         | Basic    </center> |
 | <center>5 Memory Chips | N/A      </center> |
 
-<sup>*Some lines in the chips were intentionally left blank for future use and compatiblity.*</sup>
+<sup>*Some lines in the chips were intentionally left blank for future use and compatibility.*</sup>
 </br>
 </br>
 
