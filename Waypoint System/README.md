@@ -47,14 +47,27 @@ https://streamable.com/o694c9
 </br>
 
 ### Button/Display Requirements:
-| <center> Name                  | Total </center> |
-| --- | --- |
-| <center> Text Panel 24x24cm    | 2     </center> |
-| <center> Simple Button 12x12cm | 4     </center> |
-| <center> Simple Button 12x24cm | 1     </center> |
+| <center> Name                  | Total </center> | Text Panel Field Name |
+| --- | --- | --- |
+| <center> Text Panel 24x24cm    | 2     </center> | WPD and WPStat        |
+| <center> Simple Button 12x12cm | 4     </center> | wh ws wu wd           |
+| <center> Simple Button 12x24cm | 1     </center> | wpc                   |
 
 </br>
 </br>
+
+## Installation Instructions
+
+- This system requires 3 Advanced YOLOL chips, 1 Basic(or higher) YOLOL chip, and 5 Memory Chips.
+- Copy/Insert the code for your appropriate navigation system.
+- You will need 2 24x24cm Text Panels. One should be named `WPD` and the other `WPStat`
+- You will need 4 12x12cm Simple Buttons. They should be named `wh` for Home `ws` for Save `wu` for Up and `wd` for Down
+- You will also need 1 12x24cm Simple Button. This should be named `wpc`
+  - This 12x24cm Simple Button also requires you renaming the 3rd field to `wpcc`
+- On the Save (`ws`) and Select (`wpc`) button. Set Button Style to 1.
+
+*Pictures and more Detailed Installation Instructions will be uploaded in a few hours for clarity*
+
 
 ## Changelog:
 v1.1
