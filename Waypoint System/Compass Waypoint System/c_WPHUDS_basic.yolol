@@ -1,10 +1,10 @@
 T=38 b=1 c=150 p="[NoName] " q="\n" r=q+"Selection" v="" :wpd=q+:wp1
 o=r sp=" " n=q+"Saving!" m=q+"Overwriting" a=1000 wpsd=q+"WP Saved!"
 ow=q+"Overwrite?" ss=q+"Save to Confirm" hs=q+"Home to Cancel"
-e="X=" f="Y=" g="Z="
+e="X=" f="Y=" g="Z=" tt="TimeRem "
 :WPStat=o+q+b+q+:wp w=:ws h=:wh u=:wu d=:wd goto5+((u+d+h)>0)+(w>0)*2
 b+=u-d b=b*(b>0)*(b<=T)+T*(b<1)+1*(b>T) b=h+(1-h)*b :wpn=b o=r goto5
 x=:EX/a*a y=:EY/a*a z=:EZ/a*a if :wp!=0 then ti=c :ws=0 goto9 end 
 :WPStat=n :wpa=p+e+x+sp+f+y+sp+g+z o=wpsd :wss=1 :ws=0 :wp=:wpa goto5
-h=:wh s=:ws :WPStat=ow+ss+hs+q+ti ti--  goto9-4*(ti<1)+(h+s)>0
+h=:wh s=:ws :WPStat=ow+ss+hs+q+tt+ti ti-- goto9-4*(ti<1)+(h+s)>0
 if s then :WPStat=m goto8 else goto5 end
