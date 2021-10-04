@@ -25,6 +25,7 @@ https://streamable.com/o694c9
 |      ---                 |
 | <center>wp</center>      | 
 | <center>wpc</center>     |
+| <center>wpn</center>     |
 | <center>wpa</center>     |
 | <center>wss</center>     |
 | <center>wp1-wp38</center>  |
@@ -65,8 +66,39 @@ https://streamable.com/o694c9
 - You will also need 1 12x24cm Simple Button. This should be named `wpc`
   - This 12x24cm Simple Button also requires you renaming the 3rd field to `wpcc`
 - On the Save (`ws`) and Select (`wpc`) button. Set Button Style to 1.
+- Install your FIRST memory chip and edit the 5 required fields. `wp` `wpc` `wpn` `wpa` `wss`
+- In the `wp` field add the value `"[Home] X=12345 Y=-12345 Z=-32551"` These coordinates can be whatever you want.
+  - The additional 4 memory chips will be used for waypoints.
+- Install your other 4 memory chips and name the fields in order starting from `wp1` until you finish with the last chip which will contain `wp38` there will be some empty space on the FIRST memory chip and the LAST memory chip. These will not be used by this system and you can feel free to use those empty fields.
+- You can leave all the wp1-wp38 fields with the number 0 as the value. The system will update this as you save waypoints.
+</br>
+</br>
 
-*Pictures and more Detailed Installation Instructions will be uploaded in a few hours for clarity*
+### Installation Pictures
+
+WPD
+[WPD](./InstallationPictures/WPD.png)
+WPStat
+[WPStat](./InstallationPictures/WPStat.png)
+WH
+[WH](./InstallationPictures/WH.png)
+WS
+[WH](./InstallationPictures/WS.png)
+WU
+[WH](./InstallationPictures/WU.png)
+WD
+[WH](./InstallationPictures/WD.png)
+Memory Chip 1
+[WH](./InstallationPictures/MEMC1.png)
+Memory Chip 2
+[WH](./InstallationPictures/MEMC2.png)
+Memory Chip 3
+[WH](./InstallationPictures/MEMC3.png)
+Memory Chip 4
+[WH](./InstallationPictures/MEMC4.png)
+Memory Chip 5
+[WH](./InstallationPictures/MEMC5.png)
+
 
 
 ## Changelog:
