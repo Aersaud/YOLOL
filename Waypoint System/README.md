@@ -85,7 +85,7 @@ WPD
 
 ![WPD](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WPD.png)
 </br>
-WPStat (the information in the field is not necessary to input and the system will handle that)
+WPStat (the value shown of the field is not necessary to input and the system will handle that)
 
 ![WPStat](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WPStat.png)
 </br>
