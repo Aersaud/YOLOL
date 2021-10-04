@@ -77,27 +77,27 @@ https://streamable.com/o694c9
 ### Installation Pictures
 
 WPD
-[WPD](./InstallationPictures/WPD.png)
+[WPD](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WPD.png)
 WPStat
-[WPStat](./InstallationPictures/WPStat.png)
+[WPStat](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WPStat.png)
 WH
-[WH](./InstallationPictures/WH.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WH.png)
 WS
-[WH](./InstallationPictures/WS.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WS.png)
 WU
-[WH](./InstallationPictures/WU.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WU.png)
 WD
-[WH](./InstallationPictures/WD.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WD.png)
 Memory Chip 1
-[WH](./InstallationPictures/MEMC1.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC1.png)
 Memory Chip 2
-[WH](./InstallationPictures/MEMC2.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC2.png)
 Memory Chip 3
-[WH](./InstallationPictures/MEMC3.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC3.png)
 Memory Chip 4
-[WH](./InstallationPictures/MEMC4.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC4.png)
 Memory Chip 5
-[WH](./InstallationPictures/MEMC5.png)
+[WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/MEMC5.png)
 
 
 
