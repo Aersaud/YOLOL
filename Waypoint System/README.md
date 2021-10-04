@@ -64,7 +64,7 @@ That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS` `Y=
 
 ## Installation Instructions
 
-- This system requires 3 Advanced YOLOL chips, 1 Basic(or higher) YOLOL chip, and 5 Memory Chips.
+- This system requires 3 Advanced YOLOL chips, 1 Basic (or higher) YOLOL chip, and 5 Memory Chips.
 - Copy/Insert the code for your appropriate navigation system.
 - You will need 2 24x24cm Text Panels. One should be named `WPD` and the other `WPStat`
 - You will need 4 12x12cm Simple Buttons. They should be named `wh` for Home `ws` for Save `wu` for Up and `wd` for Down
