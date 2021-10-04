@@ -90,11 +90,11 @@ WPStat (the value shown of the field is not necessary to input and the system wi
 
 ![WPStat](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/WPStat.png)
 </br>
-WH
+WPC
 
 ![WPC](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wpc.png)
 </br>
-WS
+WH
 
 ![WH](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/InstallationPictures/wh.png)
 </br>
