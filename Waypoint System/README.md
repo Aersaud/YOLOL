@@ -72,6 +72,7 @@ That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS` `Y=
   - This 12x24cm Simple Button also requires you renaming the 3rd field to `wpcc`
 - On the Save (`ws`) and Select (`wpc`) button. Set Button Style to 1.
 - Install your FIRST memory chip and edit the 5 required fields. `wp` `wpc` `wpn` `wpa` `wss`
+  - Set the value of wpn to 1
 - In the `wp` field add the value `"[Home] X=12345 Y=-12345 Z=-32551"` These coordinates can be whatever you want.
   - The additional 4 memory chips will be used for waypoints.
 - Install your other 4 memory chips and name the fields in order starting from `wp1` until you finish with the last chip which will contain `wp38` there will be some empty space on the FIRST memory chip and the LAST memory chip. These will not be used by this system and you can feel free to use those empty fields.
