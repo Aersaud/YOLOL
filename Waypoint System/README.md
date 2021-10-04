@@ -54,6 +54,11 @@ https://streamable.com/o694c9
 | <center> Simple Button 12x12cm | 4     </center> | wh ws wu wd           |
 | <center> Simple Button 12x24cm | 1     </center> | wpc                   |
 
+### Waypoint Format (on the memory chips)
+- The waypoint has a specific format that is required to function properly. You will only be touching these if you want to rename your waypoints or if you want to add waypoints in by hand. The format is as follows `"[Home] X=12345 Y=-12345 Z=-32551"`
+That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS` `Y=COORDS` `Z=COORDS` each axis has a SINGLE space between the previous one and the following one.
+- You can rename the waypoints whatever you want. Keep in mind if the name is too long it may wrap to the next line on the text panel and cause it to show incorrectly.
+
 </br>
 </br>
 
