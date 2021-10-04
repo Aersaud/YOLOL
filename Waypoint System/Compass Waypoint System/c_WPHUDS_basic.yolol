@@ -8,12 +8,3 @@ x=:EX/a*a y=:EY/a*a z=:EZ/a*a if :wp!=0 then t=c :ws=0 goto9 end
 :WPStat=n :wpa=p+e+x+sp+f+y+sp+g+z o=wpsd :wss=1 :ws=0 :wp=:wpa goto5
 h=:wh s=:ws :WPStat=ow+ss+hs+q+t t--  goto9-4*(t==0)+(h+s)>0
 if s then :WPStat=m goto8 else goto5 end
-
-
-
-
-
-
-
-
-
