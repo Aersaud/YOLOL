@@ -9,12 +9,12 @@ https://streamable.com/o694c9
 ## Features
 - 38 Name Customizable Waypoints (expansion available until your ship has no space - virtually unlimited)
 - Visual Waypoint Selection System - You can see the waypoint name and coordinates prior to parsing/confirming the waypoint for navigation since that is a more time consuming task.
-- Save and Overwrite Visual - The system will confirm the Save of waypoint on the WPStat screen. If you are overwriting a waypoint you will have 30 seconds (customizable) to confirm that you want to actually Overwrite the waypoint. Home Button = Cancel Overwrite, Save Button= Confirm and Overwrite
+- Save and Overwrite Visual - The system will confirm the Save of a Waypoint on the WPStat screen. If you are overwriting a waypoint you will have 30 seconds (customizable) to confirm that you want to actually Overwrite the waypoint. Home Button = Cancel Overwrite, Save Button= Confirm and Overwrite
 - Home Button takes you back to WP1, Up for Incrementing/Moving up your waypoints, Down for Decrementing/Moving down your waypoints, Save for saving.
 - You can press and hold to move faster up or down waypoints. It will wrap when you reach the end or beginning.
 - 2 Panels + 5 Buttons for the whole system to function within your cockpit.
 - Waypoint Parsing is done on 3 lines total per axis (X,Y,Z). While you are loading a waypoint the selection button will turn red to indicate the loading system is now locked out. When loading/parsing is complete the button will automatically unclick itself and revert to the original green color.
-- Fully compatible with Compass and SignaTrope. Make sure you select the correct version for your navigation/coordinate system from the 2 folders available here! The file name will signify the version you are looking. st_ means SignaTrope c_ means Compass 
+- Fully compatible with Compass and SignaTrope. Make sure you select the correct version for your navigation/coordinate system from the 2 folders available here! The file name will signify the version you are looking at. st_ means SignaTrope c_ means Compass 
 
 *If there are any bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
 </br>
