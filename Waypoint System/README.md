@@ -1,7 +1,8 @@
 # Waypoint-System v1.1.0
 
 ![Waypoint-System-Screenshot](Waypointv1.1.png)
-Demo Video: https://streamable.com/o694c9
+Demo Video: 
+https://user-images.githubusercontent.com/825081/135806385-911923f3-69b6-451c-be2a-33d46e4e46cb.mp4
 
 
 
