@@ -63,7 +63,7 @@ That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS` `Y=
 </br>
 
 ## Installation Instructions
-
+*Please refer to the pictures for assistance on field names, and values. These pictures are up to date*
 - This system requires 3 Advanced YOLOL chips, 1 Basic (or higher) YOLOL chip, and 5 Memory Chips.
 - Copy/Insert the code for your appropriate navigation system.
 - You will need 2 24x24cm Text Panels. One should be named `WPD` and the other `WPStat`
