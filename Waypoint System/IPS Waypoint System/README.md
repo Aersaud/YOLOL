@@ -19,4 +19,4 @@ There are a few key differences noted below:
 
 
 ## Precompiled IPS
-I have included precompiled version of IPS that export X,Y,Z for you and the Velocity Addon. These are created by Fryke. His repo can be found [here!](https://github.com/Tmktahu/IPS)
+I have included precompiled version of IPS that exports X,Y,Z for you and the Velocity Addon. These are created by Fryke. His repo can be found [here!](https://github.com/Tmktahu/IPS)
