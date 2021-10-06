@@ -2,7 +2,7 @@
 
 It includes a panel specifically for IPS `WPDeltas` and requires exporting some different variables.
 
-Otherwise it is the same installation as the original located ![here](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/README.md)
+Otherwise it is the same installation as the original located [here!](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/README.md)
 
 ## WPDeltas Panel
 There are two version of the WPDelta panel available. Feel free to pick whichever one you want. You only need ONE.
@@ -19,4 +19,4 @@ There are a few key differences noted below:
 
 
 ## Precompiled IPS
-I have included precompiled version of IPS that export X,Y,Z for you and the Velocity Addon. These are created by Fryke. His repo can be found !(here)[https://github.com/Tmktahu/IPS]
+I have included precompiled version of IPS that export X,Y,Z for you and the Velocity Addon. These are created by Fryke. His repo can be found [here!](https://github.com/Tmktahu/IPS)
