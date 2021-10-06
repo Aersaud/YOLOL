@@ -136,11 +136,14 @@ Memory Chip 5
 ## Changelog:
 v1.1.1 Minor Release
 - Includes compatibility for IPS by Fryke.
+
 v1.1   Major Release
 - Added Overwrite Confirmation
 - Reduced total Waypoint load time down from 3 lines to 2. This allows loading of waypoints even faster than before.
+
 v1.0.1 Minor Release
 - Fixed a bug that was affecting saving of Waypoints.
+
 v1.0
 - Initial Release
 
