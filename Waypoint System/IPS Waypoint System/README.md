@@ -6,8 +6,8 @@ Otherwise it is the same installation as the original located [here!](https://gi
 
 ## WPDeltas Panel
 There are two version of the WPDelta panel available. Feel free to pick whichever one you want. You only need ONE.
--WPDelta_advanced.yolol will display your Deltas as a number.
--WPDeltasText_advanced.yolol will display your Deltas as either OPENING/CLOSING.
+- WPDelta_advanced.yolol will display your Deltas as a number.
+- WPDeltasText_advanced.yolol will display your Deltas as either OPENING/CLOSING.
 - Both will display your Distance to the WP and your Speed.
 
 
