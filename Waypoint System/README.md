@@ -14,7 +14,7 @@ https://streamable.com/o694c9
 - You can press and hold to move faster up or down waypoints. It will wrap when you reach the end or beginning.
 - 2 Panels + 5 Buttons for the whole system to function within your cockpit.
 - Waypoint Parsing is done on 3 lines total per axis (X,Y,Z). While you are loading a waypoint the selection button will turn red to indicate the loading system is now locked out. When loading/parsing is complete the button will automatically unclick itself and revert to the original green color.
-- Fully compatible with Compass, SignaTrope, and IPS. Make sure you select the correct version for your navigation/coordinate system from the 2 folders available here! The file name will signify the version you are looking at. st_ means SignaTrope c_ means Compass ips_ means IPS. If you are using IPS please pay attention to the README located in that specific subfolder.
+- Fully compatible with Compass, SignaTrope, and IPS. Make sure you select the correct version for your navigation/coordinate system from the 3 folders available here! The file name will signify the version you are looking at. st_ means SignaTrope c_ means Compass ips_ means IPS. If you are using IPS please pay attention to the README located in that specific subfolder.
 
 *If there are any bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
 </br>
