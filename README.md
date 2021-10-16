@@ -11,3 +11,5 @@
 [Auto Align Solar Array](https://github.com/Aersaud/YOLOL/tree/main/Auto%20Align%20Solar%20Array)
 
 [Ship Stats](https://github.com/Aersaud/YOLOL/tree/main/Ship%20Stats)
+
+[Generator Management](https://github.com/Aersaud/YOLOL/tree/main/Generator%20Managament)
