@@ -1,0 +1,11 @@
+a="\n" b=">" c="<Main>" d="Page 2" e=f!=:mb g=:mb+1 gotog*e
+:dKt=c+a+b+:c1+a+:c2+a+:c3+a+:c4+a+:c5 f=:mb :ps="Test Screen 1" goto1
+:dKt=c+a+:c1+a+b+:c2+a+:c3+a+:c4+a+:c5 f=:mb :ps="Test Screen 2" goto1
+:dKt=c+a+:c1+a+:c2+a+b+:c3+a+:c4+a+:c5 f=:mb :ps="Test Screen 3" goto1
+:dKt=c+a+:c1+a+:c2+a+:c3+a+b+:c4+a+:c5 f=:mb :ps="Test Screen 4" goto1
+:dKt=c+a+:c1+a+:c2+a+:c3+a+:c4+a+b+:c5 f=:mb :ps=:_ goto1
+:dKt=d+a+b+:c6+a+:c7+a+:c8+a+:c9+a+:c10 f=:mb :ps=:1 goto1
+:dKt=d+a+:c6+a+b+:c7+a+:c8+a+:c9+a+:c10 f=:mb :ps=:2 goto1
+:dKt=d+a+:c6+a+:c7+a+b+:c8+a+:c9+a+:c10 f=:mb :ps=:0 goto1
+:dKt=d+a+:c6+a+:c7+a+:c8+a+b+:c9+a+:c10 f=:mb :ps=:3 goto1
+:dKt=d+a+:c6+a+:c7+a+:c8+a+:c9+a+b+:c10 f=:mb :ps=:4 goto1
