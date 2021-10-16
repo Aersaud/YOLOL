@@ -2,10 +2,13 @@
 
   
 
-![Waypoint-System-Screenshot](Waypointv1.1.png)
+![Waypoint-System-Screenshot](WP2dot0.png)
 
 Demo Video:
 
+Encryption Version: Coming Soon...
+
+Unsecured Verson:
 https://streamable.com/o694c9
 
   
@@ -25,21 +28,21 @@ https://streamable.com/o694c9
   
 ## Global Variables:
 
-| Global Variable | Requirement |
-| --- | --- |
-| wp | ALL |
-| wpc | ALL |
-| wpn | ALL |
-| wpa | ALL |
-| wss | ALL |
-| wp1-wp38 | ALL |
-| wpe | ENCRYPTION ONLY |
-| wpde | ENCRYPTION ONLY |
-| wpin | ENCRYPTION ONLY |
-| wpinsub | ENCRYPTION ONLY |
-| WPEx | ENCRYPTION ONLY |
-| WPEy | ENCRYPTION ONLY |
-| WPEz | ENCRYPTION ONLY |
+| Global Variable |
+| --- | 
+| wp | 
+| wpc | 
+| wpn | 
+| wpa | 
+| wss | 
+| wp1-wp38 |
+| wpe | 
+| wpde | 
+| wpin | 
+| wpinsub | 
+| WPEx | 
+| WPEy | 
+| WPEz | 
 
 <sup>*Adding more than 38 Waypoints will also use those global variables.*</sup>
 
@@ -179,7 +182,7 @@ https://streamable.com/o694c9
 - By default Encryption **IS ENABLED** on all chips by default. You will notice this with En=1 on the applicable chips.
 - You must set create a PIN in order for Encryption to work properly. This PIN must be input into the `:wpin` global slot. You can do this via the U-Tool or a Keypad system.
 - By default the PIN will have a timeout of 5 minutes. This means after 5 minutes you will have to enter the PIN again in order to successfully ENCRYPT and DECRYPT waypoints. Failure to enter the PIN after the lockout period will cause your waypoints to not ENCRYPT or DECRYPT properly.
-- You can remove the PIN lockout time by setting `a=0` in the `eWPE` chip. The lockout time can be changed by changing `a` to ANY value. Keep in mind EACH YOLOL tick is ~0.2 seconds so set your value appropriately for the time you want. I.e. 5 minutes is 15000.
+- You can remove the PIN lockout time by setting `a=0` in the `eWPE` chip. The lockout time can be changed by changing `a` to ANY value. Keep in mind EACH YOLOL tick is ~0.2 seconds so set your value appropriately for the time you want. I.e. 5 minutes is 1500.
 - After entering your PIN you must set `wpinsub` to `1`. This will submit the PIN into the chip.
 
 ### Waypoint Format (on the Memory Chips)
