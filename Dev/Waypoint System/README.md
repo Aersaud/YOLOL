@@ -71,12 +71,13 @@ https://streamable.com/o694c9
 | Simple Button 12x12cm | 4 | wh, ws, wu, wd |
 | Simple Button 12x24cm | 1 | wpc |
 
-## Blueprint Install Instruction
+## Blueprint Install Instruction [Preferred Method]
 
-- I have included a blueprint for each version. To add the blueprint please download it and open your File Explorer and type in `%AppData%` in the bar at the top; once you are there scroll down and look for `Starbase` double click the folder to enter and look for `ssc` double click to enter and look for folder `autosave` double click on that and look for `ship_blueprints`. You will put this file INTO the `ship_blueprints` folder. You MUST then RENAME the file 1 number higher than the other files in the folder. For example if you highest number in the folder is `ship_17593` then you MUST rename this file `ship_17594` (notice the 4 is 1 higher than the 3). This will place the blueprint in your Autosave list, you can then load this up in the SSC and save it as a new Blueprint if you wish to spawn it In-Game or Save it as a module if you wish to install the system on your ship in the SSC.
+- I have included a blueprint for each version. To add the blueprint please download it and open your File Explorer and type in `%AppData%` in the bar at the top; once you are there scroll down and look for `Starbase` double click the folder to enter and look for `ssc` double click to enter and look for folder `autosave` double click on that and look for `ship_blueprints`. You will put this file INTO the `ship_blueprints` folder. You MUST then RENAME the file 1 number higher than the other files in the folder. For example if you highest number in the folder is `ship_17593` then you MUST rename this file `ship_17594` (notice the 4 is 1 higher than the 3). This will place the blueprint in your Autosave list, you can then load this up in the SSC and save it as a new BLUEPRINT if you wish to spawn it In-Game or Save it as a MODULE if you wish to install the system on your ship in the SSC.
+- These blueprints have all the YOLOL chips and Memory Chips already loaded up and ready for use. Simply just bolt down the racks run a power cable and put the Text Displays/Buttons in your cockpit.
 
 
-## Manual/ In-Game Installation Instructions
+## Manual/ In-Game Installation Instructions [Hard Way]
 
 *Please refer to the pictures for assistance on field names, and values. These pictures are up to date*
 
