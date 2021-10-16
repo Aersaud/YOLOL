@@ -1,0 +1,2 @@
+cb=:StoredBatteryPower u=:SocketUnitRate ch=cb<=9500
+:FuelChamberUnitRateLimit=(u/2)+((10000-cb)/10)*ch goto1
