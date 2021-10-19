@@ -140,7 +140,7 @@ There are 2 ways to install the Waypoint System. The Preferred Method is easier 
   - On the Save (`ws`) and Select (`wpc`) button. Set Button Style to 1.
 - You will also need 1 12x24cm Simple Button. This should be named `wpc`
   - Rename the 3rd field on the `wplock` and `wpc` button to `wpcc`.
-- Install your FIRST memory chip and edit the 10 required fields. `wp`  `wpc`  `wpn`  `wpa`  `wss`  `wpex`  `wpey`  `wpez`  `wpin`  `wpinsub`
+- Install your FIRST memory chip and edit the **9** required fields. `wp`   `wpn`  `wpa`  `wss`  `wpex`  `wpey`  `wpez`  `wpin`  `wpinsub`
   - Set the value of wpn to 1
   - In the `wp` field make sure the value is `0`.
 - The additional 4 memory chips will be used for waypoints AND TWO more Global Variables that we need to make this system functional.
