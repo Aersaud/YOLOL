@@ -92,11 +92,15 @@ https://streamable.com/o694c9
 <sup>*IPS has the option for a 3rd Text Panel. Please refer to the README in the IPS folder on this repository.*</sup>
 
 
-There are 2 ways to install the Waypoint System. The Preferred Method will be a lot easier for newer people however instructions are available below if you need to install manually.
-
 
 
 ## Installation Instructions
+
+
+
+There are 2 ways to install the Waypoint System. The Preferred Method is easier in general, however instructions are available below if you need to install manually.
+
+
 
 ## Blueprint Install Instruction [Preferred Method]
 
@@ -257,6 +261,13 @@ That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS`  `
 
 - When saving a Waypoint the Save button will stay pressed until saving is complete.
 - When loading a Waypoint the WPC button will stay pressed and turn RED until loading is complete. This indicates the loading system is locked out. The color will return to green once loading is complete.
+
+### HELP! My waypoint system is not working!
+
+- First,  double checking that **ALL** the required global variables are in the Memory Chips.
+- Second, double check that **ALL** the required buttons are bolted to your ship somewhere. Use the `U-Tool` in game to make sure they are receiving data and have network access. If you press U when selecting the button and you do not see a flow of data, then your button is not connected to the network and will not function.
+- Third, make sure you are using the **CORRECT** waypoint code for your navigation system. If you use the wrong code for your Navigation system you will have multiple syntax errors due to global variables missing that the system is expecting to see.
+- If you have exhausted all troubleshooting methods please feel free to open up an Issue report here on Github or post in the official Starbase discord #yolol-code section. Feel free to tag me so I can further assist with troubleshooting.
 
 
 ## Changelog:
