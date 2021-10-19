@@ -39,27 +39,32 @@ https://streamable.com/o694c9
   
 ## Full List of Global Variables:
 
-| Global Variable | Name/Use |
-| --- | --- |
-| wp | Waypoint Loading |
-| wpn | Waypoint Number/Index/Slot |
-| wpa | Waypoint Saving Assistant |
-| wss | Waypoint Saving Index |
-| wpe |  Waypoint Encrypt |
-| wpde | Waypoint Decrypt |
-| wpin | Waypoint PIN |
-| wpinsub | Waypoint PIN Submit |
-| WPEx | Waypoint Encrypted X |
-| WPEy | Waypoint Encrypted Y |
-| WPEz | Waypoint Encrypted Z |
-| ws | Waypoint Save Button |
-| wh | Waypoint Home Button |
-| wu | Waypoint Up Button |
-| wd | Waypoint Down Button |
-| wpc | Waypoint Selection Button |
-| wpcc | Waypoint Selection/Lock Button Color |
-| wplock| Waypoint Lock Button |
-| wp1-wp38 | Waypoints |
+| Global Variable | Name/Use | Where Is It? |
+| --- | --- | --- |
+| wp | Waypoint Loading | Memory Chip |
+| wpn | Waypoint Number/Index/Slot | Memory Chip |
+| wpa | Waypoint Saving Assistant | Memory Chip |
+| wss | Waypoint Saving Index | Memory Chip |
+| wpe |  Waypoint Encrypt | Memory Chip |
+| wpde | Waypoint Decrypt | Memory Chip |
+| wpin | Waypoint PIN | Memory Chip |
+| wpinsub | Waypoint PIN Submit | Memory Chip |
+| WPEx | Waypoint Encrypted X | Memory Chip |
+| WPEy | Waypoint Encrypted Y | Memory Chip |
+| WPEz | Waypoint Encrypted Z | Memory Chip |
+| ws | Waypoint Save Button | Button |
+| wh | Waypoint Home Button | Button |
+| wu | Waypoint Up Button | Button |
+| wd | Waypoint Down Button | Button |
+| wpc | Waypoint Selection Button | Button |
+| wpcc | Waypoint Selection/Lock Button Color | Button |
+| wplock| Waypoint Lock Button | Button |
+| eWPC | Chipwait for eWPC chip | YOLOL Chipwait Field |
+| eWPHUDS | Chipwait for eWPHUDS | YOLOL Chipwait Field |
+| eWPE | Chipwait for eWPE | YOLOL Chipwait Field |
+| eWPNSelection | Chipwait for eWPNSelection | YOLOL Chipwait Field |
+| eWPSave | Chipwait for eWPSave | YOLOL Chipwait Field |
+| wp1-wp38 | Waypoints | Memoryr Chip |
 
 <sup>*Adding more than 38 Waypoints will also use those global variables.*</sup>
 
