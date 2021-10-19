@@ -29,13 +29,13 @@ https://streamable.com/o694c9
 *All Waypoint 2.0 code will list the version number and the "MADE FOR" somewhere in the code for easy referencing* 
 
 ## Table of Contents
-- ![Global Variable List](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#full-list-of-global-variables)
-- ![Chip Total and Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#chip-total-and-requirements)
-- ![Button/Text Panel Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#buttontext-panel-requirements)
-- ![Installation Instructions](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-instructions)
-- ![Installation Pictures](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-pictures-these-will-always-be-up-to-date)
-- ![FAQ/Important Information](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#faqimportant-information)
-- ![Changelog](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#changelog)
+- [Global Variable List](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#full-list-of-global-variables)
+- [Chip Total and Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#chip-total-and-requirements)
+- [Button/Text Panel Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#buttontext-panel-requirements)
+- [Installation Instructions](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-instructions)
+- [Installation Pictures](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-pictures-these-will-always-be-up-to-date)
+- [FAQ/Important Information](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#faqimportant-information)
+- [Changelog](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#changelog)
 
 
   
