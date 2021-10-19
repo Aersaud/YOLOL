@@ -15,14 +15,12 @@ https://streamable.com/o694c9
 ## Features
 
 - 38 Name Customizable Waypoints (expansion available until your ship has no space - virtually unlimited)
-- Built in optional Waypoint Encryption (**ENABLED BY DEFAULT**), using a PIN; with PIN LOCK.
+- Built in optional Waypoint Encryption (**ENABLED BY DEFAULT**), using a PIN; with LOCK.
 - Visual Waypoint Selection System - You can see the waypoint number prior to parsing/confirming the waypoint for navigation since that is a more time consuming task. If you are running the system in Unsecure mode you will see the Name and Coordinates of the waypoint prior to parsing.
 - Save and Overwrite Visual - The system will confirm the Save of a Waypoint on the WPStat screen. If you are overwriting a waypoint you will have 30 seconds (customizable) to confirm that you want to actually Overwrite the waypoint. Home Button = Cancel Overwrite, Save Button= Confirm and Overwrite
 - Home Button takes you back to WP1, Up for Incrementing/Moving up your waypoints, Down for Decrementing/Moving down your waypoints, Save for saving, WPC for Loading/Parsing your currently selected waypoint and lastly WPLock for Locking Down the system and clearing your PIN from memory.
-- You can press and hold to move faster up or down waypoints. It will wrap when you reach the end or beginning.
 - 2 Panels + 6 Buttons for the whole system to function within your cockpit (IPS has an OPTIONAL Text Panel)
 - Waypoint Parsing is done on 2 lines total per axis (X,Y,Z). While you are loading a waypoint the selection button will turn red to indicate the loading system is now locked out. When loading/parsing is complete the button will automatically unclick itself and revert to the original green color.
-- When saving a Waypoint the Save button will stay depressed until saving is complete.
 - Fully compatible with Compass, SignaTrope, and IPS. Make sure you select the correct version for your navigation/coordinate system from the 3 folders available here! The file name will signify the version you are looking at. st_ means SignaTrope c_ means Compass ips_ means IPS. If you are using IPS please pay attention to the README located in that specific subfolder.
 
 *If there are any bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
@@ -41,7 +39,7 @@ https://streamable.com/o694c9
   
 ## Full List of Global Variables:
 
-| Global Variable | Type/Use |
+| Global Variable | Name/Use |
 | --- | --- |
 | wp | Waypoint Loading |
 | wpn | Waypoint Number/Index/Slot |
@@ -59,7 +57,7 @@ https://streamable.com/o694c9
 | wu | Waypoint Up Button |
 | wd | Waypoint Down Button |
 | wpc | Waypoint Selection Button |
-| wpcc | Waypoint/Lock Button Color |
+| wpcc | Waypoint Selection/Lock Button Color |
 | wplock| Waypoint Lock Button |
 | wp1-wp38 | Waypoints |
 
@@ -79,6 +77,7 @@ https://streamable.com/o694c9
 | 5 Memory Chips | N/A |
 
 <sup>*Some lines in the chips were intentionally left blank for future use and compatibility.*</sup>
+
 <sup>*IPS has different chip requirements. If using that system please refer to the README in the IPS folder in this repository.*</sup>
 
 
@@ -250,6 +249,14 @@ There are 2 ways to install the Waypoint System. The Preferred Method will be a 
 That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS`  `Y=COORDS`  `Z=COORDS` each axis has a **SINGLE** space between the previous one and the following one.
 - You can rename the waypoints whatever you want. Keep in mind if the name is too long it may wrap to the next line on the Text Panel and cause it to show incorrectly.
 
+### Select Faster!
+
+- You can press and hold to move faster up or down waypoints. It will wrap when you reach the end or beginning.
+
+### My Button is Staying Pressed!
+
+- When saving a Waypoint the Save button will stay pressed until saving is complete.
+- When loading a Waypoint the WPC button will stay pressed and turn RED until loading is complete. This indicates the loading system is locked out. The color will return to green once loading is complete.
 
 
 ## Changelog:
