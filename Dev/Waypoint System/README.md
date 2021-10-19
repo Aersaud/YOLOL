@@ -27,6 +27,17 @@ https://streamable.com/o694c9
 
 *If there are any bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
 *All Waypoint 2.0 code will list the version number and the "MADE FOR" somewhere in the code for easy referencing* 
+
+## Table of Contents
+- ![Global Variable List](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#full-list-of-global-variables)
+- ![Chip Total and Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#chip-total-and-requirements)
+- ![Button/Text Panel Requirements](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#buttontext-panel-requirements)
+- ![Installation Instructions](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-instructions)
+- ![Installation Pictures](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#installation-pictures-these-will-always-be-up-to-date)
+- ![FAQ/Important Information](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#faqimportant-information)
+- ![Changelog](https://github.com/Aersaud/YOLOL/blob/dev/Dev/Waypoint%20System/README.md#changelog)
+
+
   
 ## Full List of Global Variables:
 
@@ -85,9 +96,12 @@ https://streamable.com/o694c9
 There are 2 ways to install the Waypoint System. The Preferred Method will be a lot easier for newer people however instructions are available below if you need to install manually.
 
 
+
+## Installation Instructions
+
 ## Blueprint Install Instruction [Preferred Method]
 
-- I have included a blueprint for each version. To add the blueprint please download it and follow these simple instructions.
+**I have included a blueprint for each version. To add the blueprint please download from the subfolder associated with your Navigation System and follow these simple instructions below for installation. These blueprints have all the YOLOL Chips and Memory Chips already loaded up and ready for use. Simply just bolt down the racks run a power cable and put the Text Displays/Buttons in your cockpit.**
 
 1. Open your File Explorer and type in `%AppData%` in the bar at the top
 2. Once you are in `%AppData%` scroll down and look for `Starbase` double click the folder to enter 
@@ -96,19 +110,17 @@ There are 2 ways to install the Waypoint System. The Preferred Method will be a 
 5. Look for `ship_blueprints` double click to enter that folder.
 6. Put the downloaded file INTO the `ship_blueprints` folder. 
 7. You **MUST** RENAME the file 1 number higher than the other files in the folder. 
-  - For example if you highest number in the folder is `ship_17593` then you MUST rename this file `ship_17594` (notice the 4 is 1 higher than the 3). This will place the blueprint in your AUTOSAVE list.
+    - For example if you highest number in the folder is `ship_17593` then you MUST rename this file `ship_17594` (notice the 4 is 1 higher than the 3). This will place the blueprint in your AUTOSAVE list.
 8. Load up the AUTOSAVE in the SSC and SAVE it as a new BLUEPRINT if you wish to spawn it In-Game or Save it as a MODULE if you wish to install the system on your ship within the SSC.
 
-**These blueprints have all the YOLOL chips and Memory Chips already loaded up and ready for use. Simply just bolt down the racks run a power cable and put the Text Displays/Buttons in your cockpit.**
-
-**THE SYSTEM WILL HAVE ENCRYPTION ENABLED BY DEFAULT.** If you do not wish to use encryption please set `En=0` in all applicable chips (`eWPC, eWPHUDS, eWPE`), this is always located on the first line.
+**THE SYSTEM WILL HAVE ENCRYPTION ENABLED BY DEFAULT.** If you do not wish to use encryption please set `En=0` in all applicable chips (`eWPC, eWPHUDS, eWPE`), this is always located on the first line of each applicable chip.
 
 
 ## Manual/ In-Game Installation Instructions [Hard Way]
 
 *Please refer to the pictures for assistance on field names, and values. These pictures WILL ALWAYS be up-to-date*
 
--  **THE SYSTEM WILL HAVE ENCRYPTION ENABLED BY DEFAULT.** If you do not wish to use encryption please set `En=0` in all applicable chips (`eWPC, eWPHUDS, eWPE`), this is always located on the first line.
+-  **THE SYSTEM WILL HAVE ENCRYPTION ENABLED BY DEFAULT.** If you do not wish to use encryption please set `En=0` in all applicable chips (`eWPC, eWPHUDS, eWPE`), this is always located on the first line of each applicable chip.
 - This system requires 5 Advanced YOLOL chips AND 5 Memory Chips.
 - Copy/Insert the code for your appropriate Navigation System into the YOLOL chips.
 - Rename the `Chipwait` on `eWPC` to `eWPC` and set the value to `-1`.
@@ -209,7 +221,7 @@ There are 2 ways to install the Waypoint System. The Preferred Method will be a 
 ![MEM5](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
 
 
-## FAQ
+## FAQ/Important Information
 
 
 ### How Long Does My PIN Have to Be?
