@@ -64,7 +64,7 @@ https://streamable.com/o694c9
 | eWPE | Chipwait for eWPE | YOLOL Chipwait Field |
 | eWPNSelection | Chipwait for eWPNSelection | YOLOL Chipwait Field |
 | eWPSave | Chipwait for eWPSave | YOLOL Chipwait Field |
-| wp1-wp38 | Waypoints | Memoryr Chip |
+| wp1-wp38 | Waypoints | Memory Chip |
 
 <sup>*Adding more than 38 Waypoints will also use those global variables.*</sup>
 
