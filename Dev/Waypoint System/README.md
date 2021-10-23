@@ -12,7 +12,7 @@ Unsecured Verson:
 https://streamable.com/o694c9
 
 
-** Updating from a PREVIOUS version? Make sure you READ [THIS](#READ-CAREFULLY-BEFORE-UPDATING-FROM-A-PREVIOUS-VERSION) **
+**Updating from a PREVIOUS version? Make sure you READ [THIS](#READ-CAREFULLY-BEFORE-UPDATING-FROM-A-PREVIOUS-VERSION)**
 
   
 ## Features
