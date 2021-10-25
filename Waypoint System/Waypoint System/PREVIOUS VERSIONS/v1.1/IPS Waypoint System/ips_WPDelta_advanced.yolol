@@ -1,0 +1,16 @@
+q="\n" i=q+"D: " xx=q+"X= " yy=q+"Y= " zz=q+"Z= " m="m" q2=q+q s=""
+ss=q+"S: " ms="m/s" r=.5 a=1000 v=q+"Sys Start - Please Load a WP!"
+ll="Last Known" lv="Live" f="Opening1" g="Closing1"
+if (:Wx+:Wy+:Wz)==0 then :WPDeltas=v+q2+ss+:s+ms goto4 end
+j=(:Wx-:X)/a*a k=(:Wy-:Y)/a*a l=(:Wz-:Z)/a*a h=((j)^2+(k)^2+(l)^2)^r
+h/=a h*=a if ol!=(j+k+l) then st=lv else st=ll end ol=j+k+l
+o=xx+j+m+yy+k+m+zz+l+m+i+h+m+ss+:s+ms+q+st 
+:WPDeltas=o goto5
+
+
+
+
+
+
+
+
