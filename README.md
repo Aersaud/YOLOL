@@ -11,5 +11,3 @@
 [Ship Stats](./Ship%20Stats)
 
 [Generator Management](./Generator%20Managament)
-
-[DBNOS](./DBN_OS)

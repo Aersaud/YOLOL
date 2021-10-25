@@ -1,9 +1,0 @@
-a="\n" c="   " s=" " b=a+c+"Booting"+a+c+"DBN OS" :q=b d="<Main>"
-:dKt="" :c1="Ship Stats" :c2="Resources" :c3="WP Dest" :c4="WP Sel" 
-:c5="ISAN" :c6="ST-Coord" :c7="ST-Deltas" :c8="ST-Compass"
-:c9="ST-Speed" :c10="ST-Dest" :mb=1 t=1 
-:q=a+"Boot"+a+"Complete"
-:q=:dKt q1=:se q2=:ss goto6+(q1!=0)+2*(q2!=0)
-t+=q1<0-q1>0 t=t*(t>0)*(t<=10)+10*(t<1)+1*(t>10) :mb=t goto6
-:q=:ps q3=:sb goto8-2*(q3!=0)
-

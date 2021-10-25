@@ -1,0 +1,20 @@
+En=1 b="\n" c="." d=".." e=" " f="Loading" g="Complete!" h="." i="s"
+j="-" k="" l="*****" m="Parsing" n="Decrypting" :wpd=b+"Load a WP!"
+o=10 p=-1 q=p y=0 x=0 v=0 goto3+:wpc //WPC_START
+:wpcc=1 r=:wp s=r==0 r=r-"X="-"Y="-"Z=" :WPD=f t=r+i goto5+s*13
+u=t---r-- v+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*o^q++ goto5+u<0
+ifu==h thenv/=o^q q=p goto5end ifu==j thenv*=p t-- r--end q=p :WPD+=c
+u=t---r-- x+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*o^q++ goto7+u<0
+ifu==h thenx/=o^q q=p goto7end ifu==j thenx*=p t-- r--end q=p :WPD+=c
+u=t---r-- y+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*o^q++ goto9+u<0
+ifu==h theny/=o^q q=p goto9end ifu==j theny*=p t-- r--end q=p :WPD+=c
+:WPD=m+e+g ifen<1 thengoto13end :WPD=n :WPEx=y :WPEy=x :WPEz=v :wpde=1 
+goto12+7*(:wpde<1)
+:WPD=m+e+g :WPCx=y :WPCy=x :WPCz=v goto20
+//--------------------------------------------------------------------
+// WAYPOINT VERSION 2.0              -             CREATED BY: AERSAUD
+//           THIS VERSION OF THE CODE IS MADE FOR SIGNATROPE
+//--------------------------------------------------------------------
+:WPD=b+"WP is Empty" :wpc=0 :wpcc=2 goto3
+y=l x=l v=l :WPEx=0 :WPEy=0 :WPEz=0
+:WPD=b+r+b+"X:"+y+b+"Y:"+x+b+"Z:"+v :wpc=0 :wpcc=2 goto3
