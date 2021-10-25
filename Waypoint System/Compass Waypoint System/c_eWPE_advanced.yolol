@@ -1,0 +1,20 @@
+En=1 b=3 f=31792125 g=31792068 h=31792182 sl="System Locked" z="!"
+i=1000 c=2^28-57 d=2^32 e=2^64 nl="\n" pr="PIN Required" k="Load a WP"
+m=nl+sl+nl+pr ifen thengoto4else:eWPC=0 :eWPHUDS=0 :wpes=1 goto1end
+:eWPC=-1 :eWPHUDS=-1 :wpcc=0 :wplock=1 :wpes=0 :WPD=m :WPStat=m :wpc=0
+:ws=0 if:wpin*:wpinsub thenl=:wpin :wpin=0 :wpinsub=0 goto6end goto4
+:wplock=0 :ws=0 :wpc=0 :eWPC=0 :eWPHUDS=0 :wpes=1 :wpcc=2 :WPD=nl+k+z
+wpl=:WPLock l*=wpl<1 goto7+1*(:wpe>0)+6*(:wpde>0)-3*(wpl>0)
+r=l%c s=l%d t=l%e o=:WPEx*r p=:WPEy*s q=:WPEz*t u=0 v=0 w=0
+ifu++<b thenr=(f*r+:wpn+1)%c r=(f*r+:wpn)%c goto9end o=o+r%d
+ifv++<b thens=(g*s+:wpn+1)%d s=(g*s+:wpn)%d goto10end p=p+s%d
+ifw++<b thent=(h*t+:wpn+1)%e t=(h*t+:wpn)%e goto11end q=q+t%d
+:WPEx=o :WPEy=p :WPEz=q :wpe=0 r=0 s=0 t=0 goto7
+r=l%c s=l%d t=l%e o=:WPEx p=:WPEy q=:WPEz u=0 v=0 w=0
+ifu++<b thenr=(f*r+:wpn+1)%c r=(f*r+:wpn)%c goto14end o-=r%d :WPD+="."
+ifv++<b thens=(g*s+:wpn+1)%d s=(g*s+:wpn)%d goto15end p-=s%d :WPD+="."
+ifw++<b thent=(h*t+:wpn+1)%e t=(h*t+:wpn)%e goto16end q-=t%d :WPD+="."
+:Wx=o/l%c :Wy=p/l%d :Wz=q/l%e :wpde=0 r=0 s=0 t=0 goto7
+//--------------------------------------------------------------------
+// WAYPOINT VERSION 2.0                 -          CREATED BY: AERSAUD
+// THIS VERSION IS MADE FOR COMPASS     -           WP ENCRYPTION v1.0

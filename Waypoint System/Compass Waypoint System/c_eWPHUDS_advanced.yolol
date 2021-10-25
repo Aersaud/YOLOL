@@ -1,0 +1,20 @@
+En=1 T=38 C=150 q="\n" mm=q+"Mode:" me=q+"Encryption" mn=q+"Unsecure" 
+ifen thenwp=mm+me elsewp=mm+mn end :WPStat=wp l=" " f=l+"Y=" g=l+"Z=" 
+ow=q+"Overwrite?" ss=q+"Save to Confirm" hs=q+"Home to Cancel" v=""
+tt="TimeRem " p="[NoName] X=" ek="Encrypting" ec=q+"|Encrypted|"
+n=q+"Saving!" m=q+"Overwriting" a=1000 e=q+"WP Saved!" ha="*****" 
+r=q+"Selection" ep="Empty" o=r b=1 :wps=ep wpe="X="+ha+f+ha+g+ha+ec
+:WPStat=o+q+b+q+:wps w=:ws h=:wh u=:wu d=:wd goto7+((u+d+h)>0)+(w>0)*3
+:wp=v b+=u-d b=b*(b>0)*(b<=T)+T*(b<1)+1*(b>T) b=h+(1-h)*b :wpn=b o=r
+:wps=:wp ifen then:wps=wpe end if:wp==0then:wps=ep endgoto9-2*(:wp!=v)
+x=:EX y=:EY z=:EZ if:wp!=0 thenti=c :ws=0 goto13 end
+:wpcc=0 ifen then:WPEx=x :WPEy=y :WPEz=z :WPStat=ek :wpe=1 goto15end
+:WPStat=n :wpa=p+x+f+y+g+z o=e :wss=1 :ws=0 :wp=:wpa :wps=:wp goto7
+h=:wh s=:ws :WPStat=ow+ss+hs+q+tt+ti ti-- goto13-6*(ti<1)+(h+s)>0
+if s then :wpcc=0 :WPStat=m goto11 else goto7 end
+:WPStat+="." goto15+1*(:wpe<1)
+:wpa=p+:WPEx+l+:WPEy+g+:WPEz :wss=1 :wps=wpe :wp=:wpa
+:WPEx=0 :WPEy=0 :WPEz=0 :ws=0 o=e goto7
+//--------------------------------------------------------------------
+// WAYPOINT VERSION 2.0              -             CREATED BY: AERSAUD
+//                   THIS VERSION IS MADE FOR COMPASS

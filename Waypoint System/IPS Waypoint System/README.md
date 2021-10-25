@@ -2,11 +2,11 @@
 
 It includes a panel specifically for IPS `WPDeltas` and requires exporting some different variables.
 
-Otherwise it is the same installation as the original located [here!](https://github.com/Aersaud/YOLOL/blob/main/Waypoint%20System/README.md)
+Otherwise it is the same installation as the original located [here!](../Waypoint%20System/README.md)
 
 ## WPDeltas Panel
 There are two version of the WPDelta panel available. Feel free to pick whichever one you want. You only need ONE.
-- WPDelta_advanced.yolol will display your Deltas as a number.
+- WPDelta_advanced.yolol will display your Deltas as a Number.
 - WPDeltasText_advanced.yolol will display your Deltas as either OPENING/CLOSING.
 - Both will display your Distance to the WP and your Speed.
 
@@ -15,7 +15,7 @@ There are two version of the WPDelta panel available. Feel free to pick whicheve
 There are a few key differences noted below:
 
 - You NEED to have the WPDeltas panel set up for WPDeltas to function correctly.
-- You must include `X`, `Y`, `Z` and `S` in your memory chips somewhere. There will be 7 total spaces left after the Waypoint system has installed, feel free to use 4 of those for this.
+- You must include `X`, `Y`, `Z` and `S` in additional memory chips somewhere. There is 1 space left over on the Waypoint System memory chips, feel free to use that for one of these required global variables.
 
 
 ## Precompiled IPS

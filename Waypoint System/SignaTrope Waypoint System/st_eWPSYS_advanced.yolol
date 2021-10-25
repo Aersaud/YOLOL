@@ -1,0 +1,20 @@
+En=1 d=-1 c="\n" l="Locked - Enter PIN0" k="Ent XYZ to Save/Load1"
+r="Loading" lc="Loaded!" e1="1-Save|0-Cxl" e="X=" f="Y=" g="Z=" s=" "
+q="WP Saved!" m=c+"M.Entry"+c j="-" p="Slot " i="." ha="*****"+c b=""
+w1=0 a=10 ifen<1 then:wpsys=k goto5end c1=:wpes>0 :wpsys=l+k-c1-l-k
+v=:wpent ee="|Encrypted|" cx="Cancel!" goto4+2*(v!=b)*(v!=0)*(:wpes)
+v=v-e-f-g :wpent=b t=v+"s" :wpsys=r se="Encrypting!" z=0 x=0 y=0 h=d
+u=t---v-- z+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*a^h++ goto7+u<0
+ifu==i thenz/=a^h h=d goto7end ifu==j thenz*=d v-- t--end h=d :WPEz=z
+u=t---v-- y+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*a^h++ goto9+u<0
+ifu==i theny/=a^h h=d goto9end ifu==j theny*=d v-- t--end h=d :WPEy=y
+u=t---v-- x+=(u>0+u>1+u>2+u>3+u>4+u>5+u>6+u>7+u>8)*a^h++ goto11+u<0
+ifu==i thenx/=a^h h=d goto11end ifu==j thenx*=d v-- t--end h=d :WPEx=x
+:WPCx=x :WPCy=y :WPCz=z :wpsys=lc+s+e1 wp=v+s+e+x+s+f+y+s+g+z o="Ovrd" 
+:WPD=m+v+c+e+x+c+f+y+c+g+z :wpcc=0 goto14+1*(:wpent==1)+6*(:wpent==0)
+if:wp!=0then:wpsys=o+s+p+:wpn+"?"+" 1=Y|0=N" :wpent=b elsegoto17end
+we=:wpent goto16+1*(we==1)+4*(we==0)-12*(:wpsys==b)//WPv2.0-SIGNATROPE
+:wpent=b ifen then:wpsys=se :wpe=1else:wpa=wp :wps=wp :wp=wp goto19end
+if:wpe thengoto18else:wpa=v+s+e+:WPEx+s+f+:WPEy+s+g+:WPEz :wp=:wpa end
+ifen<1then w1=1 goto20end w1=e+ha+f+ha+g+ha :wps=w1+ee :WPD=c+v+c+w1
+:wpent=b :wpcc=2 ifw1!=0then:wss=1 :wpsys=q goto4end :wpsys=cx goto4

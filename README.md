@@ -1,15 +1,13 @@
 # YOLOL Systems/Scripts for Starbase
 
-[Waypoint System](https://github.com/Aersaud/YOLOL/tree/main/Waypoint%20System)
+[Waypoint System](./Waypoint%20System)
 
-[Auto Align](https://github.com/Aersaud/YOLOL/tree/main/Auto%20Align)
+[Auto Navigate](./Auto%20Navigate)
 
-[Auto Navigate](https://github.com/Aersaud/YOLOL/tree/main/Auto%20Navigate)
+[Time Left](./Time%20Left)
 
-[Time Left](https://github.com/Aersaud/YOLOL/tree/main/Time%20Left)
+[Auto Align Solar Array](./Auto%20Align%20Solar%20Array)
 
-[Auto Align Solar Array](https://github.com/Aersaud/YOLOL/tree/main/Auto%20Align%20Solar%20Array)
+[Ship Stats](./Ship%20Stats)
 
-[Ship Stats](https://github.com/Aersaud/YOLOL/tree/main/Ship%20Stats)
-
-[Generator Management](https://github.com/Aersaud/YOLOL/tree/main/Generator%20Managament)
+[Generator Management](./Generator%20Managament)
