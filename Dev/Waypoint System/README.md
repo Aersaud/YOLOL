@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=Hde5HFqa-hA
 
 
 **Updating from a PREVIOUS version? Make sure you READ [THIS](#READ-CAREFULLY-BEFORE-UPDATING-FROM-A-PREVIOUS-VERSION)**
+
 **Having an issue with the system? Please go through the [FAQ's](#faqimportant-information) before opening an Issue here on Github or contacting me via Discord!**
 
   
