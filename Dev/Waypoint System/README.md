@@ -4,38 +4,43 @@
 
 ![Waypoint-System-Screenshot](WP2dot0.png)
 
-Demo Video:
+Demo Videos:
 
-Encryption Version: Coming Soon...
+Encryption Version:
+https://www.youtube.com/watch?v=z9JFBizFcpc
 
 Unsecured Verson:
-https://streamable.com/o694c9
+https://www.youtube.com/watch?v=Hde5HFqa-hA
 
 
 **Updating from a PREVIOUS version? Make sure you READ [THIS](#READ-CAREFULLY-BEFORE-UPDATING-FROM-A-PREVIOUS-VERSION)**
+**Having an issue with the system? Please go through the [FAQ's](#faqimportant-information) before opening an Issue here on Github or contacting me via Discord!**
 
   
 ## Features
 
+- Easy Installation via Blueprint. Print a copy of the blueprint in game bolt it your ship and wire it for power or place it in the SSC. Manual installation instructions are also available!
 - 38 Name Customizable Waypoints (expansion available until your ship has no space - virtually unlimited)
 - Manual Entry of Waypoints and Names supported on the WPSys progress bar!
-- Built in optional Waypoint Encryption (**ENABLED BY DEFAULT**), using a PIN; with LOCK button.
-- Visual Waypoint Selection System - You can see the waypoint number prior to parsing/confirming the waypoint for navigation since that is a more time consuming task. If you are running the system in Unsecure mode you will see the Name and Coordinates of the waypoint prior to parsing.
+- Built in optional Waypoint Encryption (**ENABLED BY DEFAULT**), using a PIN (**6 DIGITS MAX**); with LOCK button.
+- Visual Waypoint Selection System - You can see the waypoint slot number prior to parsing/confirming the waypoint for navigation since that is a more time consuming task. If you are running the system in Unsecure Mode you will see the Name and Coordinates of the waypoint prior to parsing.
 - Save and Overwrite Visual - The system will confirm the Save of a Waypoint on the WPStat screen. If you are overwriting a waypoint you will have 30 seconds (customizable) to confirm that you want to actually Overwrite the waypoint. Home Button = Cancel Overwrite, Save Button= Confirm and Overwrite. If you are doing this from the WPSys progress bar you will be using 1 or 0 to say Yes or No to all the questions regarding overwritting.
 - Home Button takes you back to WP1, Up for Incrementing/Moving up your waypoints, Down for Decrementing/Moving down your waypoints, Save for saving, WPC for Loading/Parsing your currently selected waypoint and lastly WPLock for Locking Down the system and clearing your PIN from memory.
 - 1 Progress Bar + 2 Text Panels + 6 Warning Light Buttons for the whole system to function within your cockpit (IPS has an OPTIONAL Text Panel)
-- Selection LockOut - While you are loading a waypoint the selection button (`wpc`) will turn RED to indicate the loading system is now locked out. When loading/parsing is complete the button will automatically unclick itself and revert to the original GREEN color.
+- System LockOut - Whenever the system is LOCKED such as loading a waypoint, saving a waypoint, or locked due to the Lock button. Various buttons within the system will turn RED to show you they will not function. During LockOut due to the Lock button being used no buttons will function until a valid PIN is entered in the `wpin` field and `wpinsub` is set to 1.
 - Fully compatible with Compass, SignaTrope, and IPS. Make sure you select the correct version for your navigation/coordinate system from the 3 folders available here! The file name will signify the version you are looking at. st_ means SignaTrope c_ means Compass ips_ means IPS. If you are using IPS please pay attention to the README located in that specific subfolder.
+- Waypoint Loading now parses DECIMALs as well. For 100% accuracy regardless of Encryption Mode or Unsecure Mode.
 
-*If there are any bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
+*If there are any major bugs or issues feel free to submit an Issue here on Github so I can quickly address them.*
 *All Waypoint 2.0 code will list the version number and the "MADE FOR" somewhere in the code for easy referencing* 
-
+*The previous version is still available in the PREVIOUS VERSIONS folder.* 
 
 
 ## Table of Contents
 - [Global Variable List](#full-list-of-global-variables-(including-buttons-and-progress-bar-fields))
 - [Chip Total and Requirements](#chip-total-and-requirements)
-- [Button/Text Panel Requirements](#buttontext-panel-requirements)
+- [NON-YOLOL Device Requirements](#non-yolol-device-requirements)
+- [Waypoint Format](#waypoint-format)
 - [Updating from a Previous Version](#READ-CAREFULLY-BEFORE-UPDATING-FROM-A-PREVIOUS-VERSION)
 - [Installation Instructions](#installation-instructions)
 - [Installation Pictures](#installation-pictures-these-will-always-be-up-to-date)
@@ -103,7 +108,7 @@ I have tried to keep everything within the same name space (`wp` and `w` for but
 
 
 
-## Button/Text Panel Requirements:
+## Non-YOLOL Device Requirements:
 
 | Name | Total | Text Panel/Field Names |
 | --- | --- | --- |
@@ -112,6 +117,17 @@ I have tried to keep everything within the same name space (`wp` and `w` for but
 | Warning Light Button 12x12cm | 6 | wh, ws, wu, wd, wpc, wplock |
 
 <sup>*IPS has the option for a 3rd Text Panel. Please refer to the README in the IPS folder on this repository.*</sup>
+
+
+## Waypoint Format
+
+- The waypoint has a specific format that is required to function properly. You will only be using this if you want to rename your waypoints or if you want to add waypoints in by hand using WPSys (such as Importing or Manual Entry).
+
+- The format is as follows `"[Home] X=12345 Y=-12345 Z=-32551"`
+
+That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS`  `Y=COORDS`  `Z=COORDS` each axis has a **SINGLE** space between the previous one and the following one. There are no spaces between the axis name, the equal sign, and the coordinate numbers. Please see the DEMO videos if you have questions.
+- You can rename the waypoints whatever you want. Keep in mind if the name is too long it may wrap to the next line on the Text Panel and cause it to show incorrectly.
+
 
 
 
@@ -141,7 +157,7 @@ I have tried to keep everything within the same name space (`wp` and `w` for but
 
 
 
-There are 2 ways to install the Waypoint System. The Preferred Method is easier in general, however instructions are available below if you need to install manually.
+There are 2 ways to install the Waypoint System. The Preferred Method is the EASIEST install, however instructions are available below if you need to install manually.
 
 
 
@@ -182,13 +198,14 @@ There are 2 ways to install the Waypoint System. The Preferred Method is easier 
 - You will need **2** 24x24cm Text Panels (IPC has the option for a 3rd Text Panel). 
     - Name your first Text Panel `WPD`
     - Name your second Text Panel `WPStat`
+    - Values for both Fields can be `""`
 - You will need **6** 12x12cm Warning Light Buttons. 
-    - Name the first button `wh`. Button color does not matter, Button style 0. This is your home button. 
-    - Name the second button `ws`. Button color does not matter, Button style 1. This is your save button.
+    - Name the first button `wh`. Button color does not matter, Button style 0. This is your HOME button. 
+    - Name the second button `ws`. Name the button color field `wpcc`. Button style 1. This is your SAVE button.
     - Name the third button `wu`. Button color does not matter. Button style 0. This is your UP button.
     - Name the fourth button `wd`. Button color does not matter. Button style 0. This is your DOWN button.
-    - Name the fifth button `wpc`. Name the button color field `wpcc`. Button style 1. This is your Selection button.
-    - Name the sixth button `wplock`. Name the button color field `wpcc`. Button style 0. This is your Lock button.
+    - Name the fifth button `wpc`. Name the button color field `wpcc`. Button style 1. This is your SELECTION button.
+    - Name the sixth button `wplock`. Name the button color field `wpcc`. Button style 0. This is your LOCK button.
     
     *Feel free to use some Progress Bars behind the buttons as labels. (The blueprints come with these by default.)*
 
@@ -206,78 +223,84 @@ There are 2 ways to install the Waypoint System. The Preferred Method is easier 
 
 #### WPD
 
-![WPD](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WPD](./InstallationPictures/WPD.png)
 
 
 
 #### WPStat 
 
-![WPStat](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WPStat](./InstallationPictures/WPStat.png)
 
 
-#### WPLOCK
 
-![WPLOCK](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+#### WPSys 
+
+![WPStat](./InstallationPictures/WPSys.png)
+
+
+#### WPLock
+
+![WPLOCK](./InstallationPictures/wplock.png)
 
 
 
 #### WPC
 
-![WPC](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WPC](./InstallationPictures/wpc.png)
 
 
 
 #### WH
 
-![WH](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WH](./InstallationPictures/wh.png)
 
 
 
 #### WS
 
-![WS](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WS](./InstallationPictures/ws.png)
 
 
 
 #### WU
 
-![WU](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WU](./InstallationPictures/wu.png)
 
 
 
 #### WD
 
-![WD](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![WD](./InstallationPictures/wd.png)
 
 
 
 #### Memory Chip 1
 
-![MEM1](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![MEM1](./InstallationPictures/MEMC1.png)
 
 
 
 #### Memory Chip 2
 
-![MEM2](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![MEM2](./InstallationPictures/MEMC2.png)
 
 
 
 #### Memory Chip 3
 
-![MEM3](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![MEM3](./InstallationPictures/MEMC3.png)
 
 
 
 #### Memory Chip 4
 
-![MEM4](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![MEM4](./InstallationPictures/MEMC4.png)
 
 
 
 #### Memory Chip 5
 
-![MEM5](https://cdn.iconscout.com/icon/premium/png-256-thumb/coming-soon-label-842108.png)
+![MEM5](./InstallationPictures/MEMC5.png)
 
 
 ## FAQ/Important Information
@@ -285,7 +308,7 @@ There are 2 ways to install the Waypoint System. The Preferred Method is easier 
 
 ### How Long Does My PIN Have to Be?
 
-- Your PIN **MUST** consist of ALL digits (0-9). The length can be whatever you want, however **DO NOT** exceed 6 total digits.
+- Your PIN **MUST** consist of ALL digits (0-9). The length can be whatever you want, however **DO NOT** exceed 6 total digits or you will run into overflow problems when encrypting/decrypting.
 
 ### How Does Encryption Work with this System?
 
@@ -300,14 +323,9 @@ There are 2 ways to install the Waypoint System. The Preferred Method is easier 
 - After locking the system, you will be required to re-enter your PIN.
 - Failure to enter a PIN code will result in Coordinates not Encrypting/Decrypting properly.
 
-### Waypoint Format (on the Memory Chips)
+### Is the Encryption foolproof?
 
-- The waypoint has a specific format that is required to function properly. You will only be touching these if you want to rename your waypoints or if you want to add waypoints in by hand. Adding in Waypoints by hand is currently not implemented but WILL be in a future release.
-
-- The format is as follows `"[Home] X=12345 Y=-12345 Z=-32551"`
-
-That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS`  `Y=COORDS`  `Z=COORDS` each axis has a **SINGLE** space between the previous one and the following one.
-- You can rename the waypoints whatever you want. Keep in mind if the name is too long it may wrap to the next line on the Text Panel and cause it to show incorrectly.
+- Within the limits of YOLOL it will be VERY difficult for anyone to crack the encryption due to how slow YOLOL runs. It may be possible for people to crack the encryption outside of Starbase. However, there is nothing we can do to stop that from happening.
 
 ### Select Faster!
 
@@ -337,6 +355,10 @@ That is the name in brackets `[Name]` followed by a SINGLE space. `X=COORDS`  `
 ### How do I type in a specific set of coordinates to navigate to?
 
 - Please read [Manual Import Process](#manual-import-process)
+
+### I'm using Unsecure Mode, Why Do I Need the WPLock button? 
+
+- You don't! However, this button may be used in a future. 
 
 
 ## Changelog:
