@@ -1,8 +1,0 @@
-a="\n" b=a+"D: " c=a+"X= " d=a+"Y= " e=a+"Z= " f="m" g=a+a h=""
-i=a+"S: " j="m/s" k=.5 l=1000 m=a+"Sys Start - Please Load a WP!"
-n=a+"Last Known0" o=a+"Live1" p="Opening0" q="Closing1"
-if(:Wx+:Wy+:Wz)==0then:WPDeltas=m+g+i+:s+j goto4end
-r=abs(:Wx-:X)/l*l s=abs(:Wy-:Y)/l*l t=abs(:Wz-:Z)/l*l
-u=p+q-r<v-p-q w=p+q-s<x-p-q y=p+q-t<z-p-q aa=(r^2+s^2+t^2)^k/l*l
-ab=n+o-v!=r-n-o v=r x=s z=t ac=c+u+d+w+e+y+b+aa+f+i+:s+j+ab
-:WPDeltas=ac goto5
